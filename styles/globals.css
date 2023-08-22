@@ -14,7 +14,7 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  padding: 120px 24px 160px 24px;
+  padding: 10px 24px 160px 24px;
 }
 
 .main:before {
@@ -70,10 +70,12 @@
   }
 }
 
+/* max-w-7xl */
+
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+  @apply relative z-10 flex justify-center items-center h-1/2 w-full flex-col  mx-auto sm:px-16 px-6;
 }
 
 .black_btn {
