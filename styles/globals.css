@@ -10,6 +10,7 @@
 
 .main {
   width: 100vw;
+  max-height: 100vh;
   min-height: 100vh;
   position: fixed;
   display: flex;
@@ -75,7 +76,7 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center h-1/2 w-full flex-col  mx-auto sm:px-16 px-6;
+  @apply relative z-10 flex justify-center items-center h-screen w-full flex-col  mx-auto sm:px-16 px-6;
 }
 
 .black_btn {
